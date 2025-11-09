@@ -2,7 +2,12 @@
 
 ## Overview
 
-This project is a machine learning solution for product search and ranking, developed for the TAMU-25 H-E-B Datathon competition. The system helps customers find relevant products by combining traditional keyword-based search with modern AI-powered semantic understanding.
+This project is a hybrid search and ranking system developed for the TAMU-25 H-E-B Datathon competition. The system combines traditional information retrieval algorithms (BM25) with pre-trained transformer models (Sentence-BERT) using transfer learning to improve product search relevance through semantic understanding.
+
+**Technical Approach:**
+- 20% BM25 (statistical keyword matching algorithm)
+- 80% Semantic similarity using pre-trained all-mpnet-base-v2 transformer model
+- No custom model training - leverages transfer learning from existing neural networks
 
 ### What Does This Do?
 
@@ -26,7 +31,7 @@ Good search results directly impact customer satisfaction and sales. This system
 ### Key Features
 
 1. **Hybrid Search Technology**
-   - Combines keyword matching (traditional search) with AI understanding (semantic search)
+   - Combines keyword matching (BM25 algorithm) with semantic embeddings (pre-trained transformers)
    - Achieves 66.38% accuracy in ranking products correctly
    - 25.67% improvement over basic keyword-only search
 
@@ -51,7 +56,7 @@ Good search results directly impact customer satisfaction and sales. This system
 
 - **Better Customer Experience**: Customers find what they need faster
 - **Increased Sales**: Relevant results lead to more conversions
-- **Competitive Advantage**: AI-powered search outperforms traditional methods
+- **Competitive Advantage**: Hybrid semantic search outperforms keyword-only methods
 - **Scalable Solution**: Can grow with the product catalog
 
 ---

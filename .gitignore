@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Poetry
+poetry.lock
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Reports
+.reports/
+validation_report.json
+leaderboard.json
+leaderboard.md
+
+# Outputs
+submission.json
+train_*.json
+test_*.json
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+notebooks/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Temporary files
+nul
+tmp/
+temp/
+*.tmp
+
+# Documentation builds
+site/
+docs/_build/
+
+# Miscellaneous
+miscellaneous/
